@@ -1,0 +1,178 @@
+header{
+    background-color: rgb(240, 158, 6);
+    height: 150px;
+    background-image: url("лого.jpg");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    text-align:end;
+    font-size: 90px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    text-shadow: black 2px 5px 5px;
+}
+main{
+    background-color: rgb(91, 194, 134);
+    height: 100%;
+}
+footer{
+    background-color: rgb(67, 129, 187);
+    height: 100%;
+    font-family: "Nunito", sans-serif;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(91, 194, 134);
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Nunito", sans-serif;
+    border: 2px solid rgb(73, 155, 107);
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: rgb(67, 129, 187);
+    color: rgb(76, 255, 151);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(91, 194, 134);
+}
+.shmain{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(91, 194, 134);
+    font-family: "Nunito", sans-serif;
+    font-size: 29.3px;
+}
+.left{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(91, 194, 134);
+}
+.aleft{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(91, 194, 134);
+    font-size: 29.3px;
+    font-family: "Nunito", sans-serif;
+}
+.shleft{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(72, 152, 105);
+}
+.right{
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(91, 194, 134);
+    font-size: 29.3px;
+    font-family: "Nunito", sans-serif;
+}
+.shright{
+    float: right;
+    height: 1917px;
+    width: 50%;
+    background-color: rgb(91, 194, 134);
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    margin-left: 0px;
+}
+.hright{
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(91, 194, 134);
+    font-size: 31.15px;
+    font-family: "Nunito", sans-serif;
+}
+.sright{
+    float: right;
+    height: 946px;
+    width: 50%;
+    background-color: rgb(91, 194, 134);
+    font-size: 38.2px;
+    font-family: "Nunito", sans-serif;
+}
+.schoolform{
+    float: middle;
+    background-color: rgb(72, 152, 105);
+}
+.ties{
+    float: right;
+    height: 100%;
+}
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+.search{
+    width: 25%;
+    font-family: "Nunito", sans-serif;
+}
+.button{
+    text-decoration: none;
+    border: 2px solid black;
+    box-shadow: none;
+    width: 15%;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.button:active{
+    background-color: white;
+    color: red;
+}
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
